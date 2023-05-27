@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<link rel="icon" href="%sveltekit.assets%/favicon.png" />
+		<meta name="viewport" content="width=device-width" />
+		<title>F1-Dashboard</title>
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">
+	</head>
+	%sveltekit.head%
+	<body data-sveltekit-preload-data="hover" class="font-oswald">
+		<div class="relative" style="display: contents">
+			<div class="container grid mx-auto text-white 2xl:place-content-center 2xl:h-screen">
+				%sveltekit.body%
+				
+			</div>
+			<div class=" text-center text-white mt-5 text-xs place self-end 2xl:absolute 2xl:w-screen 2xl:bottom-0">
+				This website is unofficial and is not associated in any way with the Formula 1 companies. F1, FORMULA ONE, FORMULA 1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing B.V.
+			</div>
+		</div>
+	</body>
+</html>
