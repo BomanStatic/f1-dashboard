@@ -1,7 +1,6 @@
 <script>
     export let driver;
 </script>
-<!-- <a class="" href="/{driver.Driver.driverId}"> -->
 <tr class="text-xl font-light border-b-2 border-[#2C2D3C] group hover:bg-gray-600 transition-all">
     <td class="px-5 py-5">
         <div class="flex">

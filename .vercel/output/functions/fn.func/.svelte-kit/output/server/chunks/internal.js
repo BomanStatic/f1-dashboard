@@ -108,7 +108,7 @@ const options = {
   root: Root,
   service_worker: false,
   templates: {
-    app: ({ head, body, assets: assets2, nonce, env }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<link rel="icon" href="' + assets2 + '/favicon.png" />\n		<meta name="viewport" content="width=device-width" />\n		<title>F1-Dashboard</title>\n		<link rel="preconnect" href="https://fonts.googleapis.com">\n		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">\n	</head>\n	' + head + '\n	<body data-sveltekit-preload-data="hover" class="font-oswald">\n		<div class="relative" style="display: contents">\n			<div class="container grid mx-auto text-white 2xl:place-content-center 2xl:h-screen">\n				' + body + '\n				\n			</div>\n			<div class=" text-center text-white mt-5 text-xs place self-end 2xl:absolute 2xl:w-screen 2xl:bottom-0">\n				This website is unofficial and is not associated in any way with the Formula 1 companies. F1, FORMULA ONE, FORMULA 1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing B.V.\n			</div>\n		</div>\n	</body>\n</html>\n',
+    app: ({ head, body, assets: assets2, nonce, env }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<link rel="icon" href="' + assets2 + '/favicon.png" />\n		<meta name="viewport" content="width=device-width" />\n		<meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests">\n		<title>F1-Dashboard</title>\n		<link rel="preconnect" href="https://fonts.googleapis.com">\n		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>\n		<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500&display=swap" rel="stylesheet">\n	</head>\n	' + head + '\n	<body data-sveltekit-preload-data="hover" class="font-oswald">\n		<div class="relative" style="display: contents">\n			<div class="container grid mx-auto text-white 2xl:place-content-center 2xl:h-screen">\n				' + body + '\n				\n			</div>\n			<div class=" text-center text-white mt-5 text-xs place self-end 2xl:absolute 2xl:w-screen 2xl:bottom-0">\n				This website is unofficial and is not associated in any way with the Formula 1 companies. F1, FORMULA ONE, FORMULA 1, FIA FORMULA ONE WORLD CHAMPIONSHIP, GRAND PRIX and related marks are trade marks of Formula One Licensing B.V.\n			</div>\n		</div>\n	</body>\n</html>\n',
     error: ({ status, message }) => '<!DOCTYPE html>\n<html lang="en">\n	<head>\n		<meta charset="utf-8" />\n		<title>' + message + `</title>
 
 		<style>
@@ -169,7 +169,7 @@ const options = {
 		<div class="error">
 			<span class="status">` + status + '</span>\n			<div class="message">\n				<h1>' + message + "</h1>\n			</div>\n		</div>\n	</body>\n</html>\n"
   },
-  version_hash: "fib4ae"
+  version_hash: "175fuuz"
 };
 function get_hooks() {
   return {};
