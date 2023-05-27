@@ -82,7 +82,7 @@
     <div
         in:fade
         out:fade|local
-        class="grid grid-cols-1 px-10 bg-[#333544] lg:grid-cols-2"
+        class="grid grid-cols-1 px-2 lg:px-10 bg-[#333544] lg:grid-cols-2"
     >
         <div>
             <img
