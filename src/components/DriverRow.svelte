@@ -11,7 +11,7 @@
             <div class="flex-shrink-0 w-14 h-14 align-middle">
                 <img
                     class="w-full h-full rounded-full"
-                    src="/src/img/{driver.Driver.familyName}.webp"
+                    src="../src/img/{driver.Driver.familyName}.webp"
                     alt=""
                 />
             </div>

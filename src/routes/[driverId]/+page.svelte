@@ -23,7 +23,7 @@
     <div class="flex flex-col bg-[#2C2D3C] mx-5 sm:mr-5 sm:ml-0">
       <img
         class="max-h-[30em] object-contain"
-        src="/src/img/{driver.familyName}.webp"
+        src="../src/img/{driver.familyName}.webp"
         alt={driver.familyName}
       />
       <div class=" px-10 py-3 flex gap-2 text-2xl uppercase items-center justify-between border-b-2 border-[#333544]">

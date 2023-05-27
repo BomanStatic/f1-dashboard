@@ -87,7 +87,7 @@
         <div>
             <img
                 class="w-full"
-                src="/src/img/Circuit/{nextRace.Circuit.Location.locality}.webp"
+                src="../src/img/Circuit/{nextRace.Circuit.Location.locality}.webp"
                 alt="Circuit Layout"
             />
         </div>
@@ -155,7 +155,7 @@
                     <div class="flex flex-col gap-2">
                         <img
                             class=" w-32"
-                            src="/src/img/{drivers[0].Driver.familyName}.webp"
+                            src="../src/img/{drivers[0].Driver.familyName}.webp"
                             alt="best driver"
                         />
                         <div class="flex gap-2 text-xl font-light self-center">
