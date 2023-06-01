@@ -174,7 +174,7 @@
         </div>
         <div class="lg:row-start-2">
             <div class="flex flex-col gap-3 rounded-b-xl px-5 2xl:px-10">
-                <h2 class="text-2xl">Uppcoming races</h2>
+                <h2 class="text-2xl">Upcoming races</h2>
                 <div class="flex flex-col flex-wrap gap-y-5 justify-evenly gap-3">
                     <UpcomingRaces {nextThree} />
                 </div>
