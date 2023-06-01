@@ -3,18 +3,19 @@
     console.log(results);
 </script>
 
-<div class="overflow-auto max-h-[70vh] overflow-x-auto bg-[#383846]">
+<div class="overflow-auto max-h-[70vh] overflow-x-auto bg-[#333547]">
     <table class="w-full">
       <tbody>
         {#each results as result}
-        <tr class="text-xl font-light border-b-2 border-[#2C2D3C]">
+        <tr class="text-xl font-light border-b-2 border-[#222330] ">
           <td class="px-5 py-5 whitespace-nowrap">
             <div class="flex">
                 <div class="mr-3 flex justify-center items-center">
                     <p>{result.round}</p>
                 </div>
               <div class="ml-3">
-                <p class="whitespace-nowrap">{result.Circuit.Location.country}</p>
+                <p class=" text-gray-400 whitespace-nowrap">{result.Circuit.Location.country}</p>
+                <p class="whitespace-nowrap text-base">{result.raceName}</p>
               </div>
             </div>
           </td>

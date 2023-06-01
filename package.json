@@ -13,7 +13,9 @@
 		"@sveltejs/kit": "^1.5.0",
 		"autoprefixer": "^10.4.14",
 		"postcss": "^8.4.23",
+		"prettier-plugin-tailwindcss": "^0.3.0",
 		"svelte": "^3.54.0",
+		"svelte-loading-spinners": "^0.3.4",
 		"tailwindcss": "^3.3.2",
 		"vite": "^4.3.0"
 	},
