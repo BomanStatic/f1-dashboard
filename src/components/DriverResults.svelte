@@ -1,6 +1,5 @@
 <script>
     export let results;
-    console.log(results);
 </script>
 
 <div class="overflow-auto max-h-[70vh] overflow-x-auto bg-[#333547]">

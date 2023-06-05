@@ -4,7 +4,8 @@
     import { onMount } from 'svelte';
     import { page } from '$app/stores';
     import { BarLoader } from 'svelte-loading-spinners';
-    import { slide } from 'svelte/transition';
+    import { fly } from 'svelte/transition';
+    import { cubicIn, cubicOut } from 'svelte/easing'
 
     let driver = null;
     let results = null;
@@ -22,7 +23,7 @@
     });
 </script>
 {#if driver && results && constructor}
-    <div in:slide>
+    <div in:fly={{ easing: cubicOut, y: 10, duration: 300 }}>
         <div class="bg-[#222330] border-b-2 border-[#333547] text-5xl px-10 py-5 {constructor.name.toLowerCase().replace(/\s/g, '')}">
             <div class="flex gap-2">
                 <h1 class="">{driver.givenName}</h1>

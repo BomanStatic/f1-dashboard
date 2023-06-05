@@ -29,14 +29,12 @@ export class ErgastAPI {
       if (response.ok) {
         const data = await response.json();
         const races = data.MRData.RaceTable.Races;
-        console.log("Previous year's races:", races);
 
         const race = races.find(
           (race) => race.Circuit.circuitId === this.race_id
         );
         if (race) {
           const round = race.round;
-          console.log("Previous year's round:", round);
 
           const resultsResponse = await fetch(
             `${this.baseURL}/${this.previous_year}/${round}/results.json`

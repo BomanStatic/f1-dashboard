@@ -1,6 +1,5 @@
 <script>
     export let nextThree;
-    console.log("lolg", nextThree);
 
     function getDay(dateString ){
         const date = new Date(dateString);
