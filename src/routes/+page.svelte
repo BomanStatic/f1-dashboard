@@ -114,7 +114,7 @@
                             )}
                         </p>
                     </div>
-                    <div class="flex gap-3 justify-between">
+                    <!-- <div class="flex gap-3 justify-between">
                         <h3 class="capitalize text-gray-400 text-xl">Practice 3</h3>
                         <p class="">{getDay(nextRace.ThirdPractice.date)}</p>
                         <p>
@@ -123,7 +123,7 @@
                                 nextRace.ThirdPractice.time
                             )}
                         </p>
-                    </div>
+                    </div> -->
                     <div class="flex gap-3 justify-between">
                         <h3 class="capitalize text-gray-400 text-xl">Qualifying</h3>
                         <p>{getDay(nextRace.Qualifying.date)}</p>
